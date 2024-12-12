@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Important Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <style>
+    *{
+      padding: 0%;
+      margin: 0%;
+      box-sizing: border-box;
+      font-family: "Roboto Mono", serif;
+    }
+
+    body{
+      min-height: 100%;
+      width: 100vw;
+      overflow-x: hidden;
+      scroll-snap-type: y mandatory;
+
+
+      /* background-color: ; */
+    }
+
+    body::-webkit-scrollbar{
+      display: none;
+    }
+
+  @keyframes circle-in-hesitate {
+  0% {
+    clip-path: circle(0%);
+  }
+  40% {
+    clip-path: circle(40%);
+  }
+  100% {
+    clip-path: circle(125%);
+  }
+}
+
+    .heroSection{
+      height: 100vh;
+      width: 100vw;
+      color: white;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-in-hesitate both;
+    }
+
+    .name{
+      font-size: 7vmin;
+      user-select: none;
+    }
+
+    .pages{
+      min-height: 100vh;
+      width: 100vw;
+      background-color: white;
+      scroll-snap-align: center;
+      padding: 1rem;
+    }
+
+    .pages > h1{
+      font-size: 5vmin;
+      text-align: center;
+      margin: 1rem;
+      text-decoration: underline;
+    }
+
+    .page1{
+      background-color: white;
+    }
+  
+
+    
+.marquee {
+    margin: 0em 10px;
+}
+.marquee-box-one {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 3em 0 0 0;
+}
+.marquee-content-one {
+    display: flex;
+    gap: 30px;
+    padding: 0 20px;
+    animation: scroll-one 30s linear infinite;
+}
+.marquee-box-two {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 3em 0 6em 0;
+}
+.marquee-content-two {
+    display: flex;
+    gap: 10px;
+    padding: 0 10px;
+    animation: scroll-two 30s linear infinite;
+}
+.marquee-text {
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 5vmin;
+    font-weight: 100;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 15px 30px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    /* color: white; */
+    background-color: white;
+    /* background-color: #181818; */
+    display: flex;
+    align-items: center;
+    user-select: none;
+    transition: .4s;
+}
+.marquee-text:hover {
+    background-color: #31393F;
+    color: white;
+    border: 1px solid #31393F;
+}
+
+@keyframes scroll-one {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+@keyframes scroll-two {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
+
+.spear{
+  padding-top: 1rem;
+  height: 2rem;
+}
+
+.info_details{
+  height: 60vh;
+  padding: 2vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info_details > h1{
+  font-size: 7vmin;
+}
+
+ul{
+  padding: 1rem;
+  font-size: 1.5rem;
+  list-style-image: url('./sssurface.svg');
+}
+
+ul li{
+  margin: 1rem;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="heroSection">
+    <h1 class="name">
+      <span>S</span>omething <br> Something<img class="spear" src="./sssurface.svg" alt="">com
+    </h1>
+  </div>
+    <section class="pages page1">
+
+<div class="marquee">
+  <div class="marquee-box-one">
+    <div class="marquee-content-one">
+      <h2 class="marquee-text">Backgrounds</h2>
+      <h2 class="marquee-text">CSS Animations</h2>
+      <h2 class="marquee-text">Buttons</h2>
+      <h2 class="marquee-text">Animation Backgrounds</h2>
+       <!-- content-dublicate -->
+      <h2 class="marquee-text">Fonts</h2>
+      <h2 class="marquee-text">CSS Shadows</h2>
+      <h2 class="marquee-text">Youtube Channels</h2>
+      <h2 class="marquee-text">Inspiration Websites</h2>
+    </div>
+    <div class="marquee-content-one">
+      <h2 class="marquee-text">github repo</h2>
+      <h2 class="marquee-text">CSS Effects</h2>
+      <h2 class="marquee-text">illustration</h2>
+      <h2 class="marquee-text">Loaders</h2>
+       <!-- content-dublicate -->
+      <h2 class="marquee-text">AI Code Generator</h2>
+      <h2 class="marquee-text">job portals</h2>
+      <h2 class="marquee-text">resource for DSA</h2>
+      <h2 class="marquee-text">Ready Made Components</h2>
+    </div> <!-- marquee-content -->
+  </div> <!-- marquee-box-one -->
+</div> <!-- marquee -->
+<div class="info_details">
+  <h1>Website that help Developers & Students. <br> Here you can find something Website & Tools like<br>
+  </h1>
+  <div class="arrow-ring">
+  </div>
+</div>
+  
+</section>
+    <section class="pages page2">
+      <h1>Background</h1>
+      <h2>CSS Background & GradientBackground</h2>
+      <ul>
+        <li><a href="https://bgjar.com/" target="_blank">bgjar.com</a></li>
+        <li><a href="https://www.gradientmagic.com/" target="_blank">gradientmagic.com</a></li>
+        <li><a href="https://www.fffuel.co/" target="_blank">fffuel.co</a></li>
+        <li><a href="https://app.haikei.app/" target="_blank">haikei.app</a></li>
+      </ul>
+      <h2>Animation Background</h2>
+      <ul>
+        <li><a href="https://loading.io/background" target="_blank">loading.io/background</a></li>
+      </ul>
+    </section>    
+    <section class="pages page3">
+      <h1>Icons</h1>
+      <ul>
+        <li><a href="https://iconer.app/" target="_blank">iconer.app</a></li>
+        <li><a href="https://www.svgrepo.com/" target="_blank">svgrepo.com</a></li>
+        <li><a href="https://feathericons.com/" target="_blank">feathericons.com</a></li>
+        <li><a href="https://ray.so/icon" target="_blank">Ray.so/icon</a></li>
+        <li><a href="https://iconoir.com/" target="_blank">iconoir.com</a></li>
+        <li><a href="https://lordicon.com/" target="_blank">lordicon.com</a></li>
+        <li><a href="https://css.gg/" target="_blank">CSS.GG</a></li>
+        <li><a href="https://icons8.com/" target="_blank">icon8.com</a></li>
+        <li><a href="https://www.flaticon.com/" target="_blank">flaticon.com</a></li>
+        <li><a href="https://iconify.design/" target="_blank">iconify.design</a></li>
+        <li><a href="https://www.svgbackgrounds.com/" target="_blank">svgbackgrounds.com</a></li>
+        <li><a href="https://animatedicons.co/" target="_blank">animatedicons.co</a></li>
+        <li><a href="https://unicornicons.com/" target="_blank">unicornicons</a></li>
+        <li><a href="https://3dicons.co/" target="_blank">3dicons.co</a></li>
+        <li><a href="https://useanimations.com/#explore" target="_blank">useanimations.com</a></li>
+        <li><a href="https://finsweet.com/lottieflow" target="_blank">finsweet.com/lottieflow</a></li>
+        <li><a href="https://cssicon.space/#/" target="_blank">cssicon.space</a></li>        
+      </ul>
+    </section>    
+    <section class="pages page4">
+      <h1>Fonts</h1>
+      <ul>
+        <li><a href="https://fonts.google.com/" target="_blank">fonts.google.com</a></li>
+        <li><a href="https://befonts.com/" target="_blank">befonts.com</a></li>
+        <li><a href="https://fontain.org/" target="_blank">fontain.org</a></li>
+        <li><a href="https://www.1001fonts.com/" target="_blank">www.1001fonts.com</a></li>
+        <li><a href="https://www.dafont.com/" target="_blank">dafont.com</a></li>
+        <li><a href="https://www.myfonts.com/" target="_blank">myfonts.com</a></li>
+        <li><a href="https://www.fontshare.com/" target="_blank">fontshare.com</a></li>
+        <li><a href="https://www.fontfabric.com/" target="_blank">fontfabric.com</a></li>
+        <li><a href="https://www.fontsquirrel.com/" target="_blank">fontsquirrel.com</a></li>
+        <li><a href="https://www.fontspace.com/" target="_blank">fontspace.com</a></li>
+        <li><a href="https://www.urbanfonts.com/" target="_blank">urbanfonts.com</a></li>
+        <li><a href="https://www.fontpair.co/" target="_blank">fontpair.co</a></li>
+      </ul>
+    </section>
+    <section class="pages page5">
+      <h1>CSS Animations</h1>
+      <ul>
+        <li><a href="https://www.transition.style/#in:custom:circle-swoop" target="_blank">transition.style</a></li>
+        <li><a href="https://animista.net/" target="_blank">animista.net</a></li>
+        </ul>
+        <h1>CSS</h1>
+        <ul>
+        <li><a href="https://shadows.brumm.af/" target="_blank">shadows.brumm.af</a></li>
+        <li><a href="https://neumorphism.io/#e0e0e0" target="_blank">neumorphism.io</a></li>
+        <li><a href="https://keyframes.app/animate" target="_blank">keyframes.app</a></li>
+        <li><a href="https://hype4.academy/tools/glassmorphism-generator" target="_blank">hype4.academy</a></li>
+      </ul>
+    </section>    
+    <section class="pages page6">
+      <h1>CSS Loaders</h1>
+      <ul>
+        <li><a href="https://cssloaders.github.io/" target="_blank">cssloaders.github.io</a></li>
+        <li><a href="https://css-loaders.com/" target="_blank">css-loaders.com</a></li>
+        <li><a href="https://whirl.netlify.app/" target="_blank">whirl.netlify.app</a></li>
+        <li><a href="https://uiball.com/ldrs/" target="_blank">uiball.com/ldrs</a></li>
+        
+      </ul>
+    </section>    
+    <section class="pages page7">
+      <h1>Illustration</h1>
+      <ul>
+        <li><a href="https://storyset.com/" target="_blank">storyset.com</a></li>
+        <li><a href="https://iradesign.io/" target="_blank">iradesign.io</a></li>
+        <li><a href="https://www.drawkit.com/" target="_blank">drawkit.com</a></li>
+        <li><a href="https://www.openpeeps.com/" target="_blank">openpeeps.com</a></li>
+        <li><a href="https://lottiefiles.com/" target="_blank">lottiefiles.com</a></li>
+        <li><a href="https://www.humaaans.com/" target="_blank">humaaans.com</a></li>
+        <!-- https://shapefest.com/ -->
+      </ul>      
+    </section>    
+    <section class="pages page8">
+      <h1>Emojis</h1>
+    </section>    
+    <section class="pages page9">
+      <h1>Components</h1>
+      <ul>
+        <li><a href="https://magicui.design/" target="_blank">magicui.design</a></li>
+        <li><a href="https://uiverse.io/" target="_blank">uiverse.io</a></li>
+        <li><a href="https://magicui.design/" target="_blank">magicui.design</a></li>
+        <li><a href="https://app.ui-snippets.com/" target="_blank">app.ui-snippets.com</a></li>
+      </ul>
+    </section>    
+    <section class="pages page10">
+      <h1>Tools</h1>
+      <ul>
+        <li><a href="https://www.toools.design/" target="_blank">toools.design</a></li>
+        <li><a href="https://resource.fyi/" target="_blank">resource.fyi</a></li>
+        <li><a href="https://freefrontend.com/" target="_blank">freefrontend.com</a></li>
+
+        
+      </ul>
+    </section>    
+    <section class="pages page11">
+      <h1>Page 11</h1>
+    </section>    
+    <section class="pages page12">
+      <h1>Page 12</h1>
+    </section>    
+    <section class="pages page13">
+      <h1>Inspiration Websites</h1>
+    </section>        
+</body>
+</html>
