@@ -52,7 +52,11 @@ clip-path: circle(125%);
   width: 100vw;
   background-color: white;
   scroll-snap-align: center;
-  padding: 1rem;
+  padding: 2rem;
+}
+
+.pages h2{
+  font-size: 4vmin;
 }
 
 .pages > h1{
@@ -152,9 +156,24 @@ ul{
 padding: 1rem;
 font-size: 1.5rem;
 list-style-image: url('./sssurface.svg');
+display: flex;
+flex-wrap: wrap;
 }
 
 ul li{
 margin: 1rem;
+}
+
+ul li a{
+text-decoration: none;
+font-size: 1.7rem;
+font-weight: 500;
+color: black;
+transition: .4s;  
+}
+
+ul li a:hover{
+  color: #f8546f;
+  font-size: 1.8rem;
 }
 
