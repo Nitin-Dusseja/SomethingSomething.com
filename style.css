@@ -55,6 +55,10 @@ clip-path: circle(125%);
   padding: 2rem;
 }
 
+.page1{
+  padding: 0%;
+}
+
 .pages h2{
   font-size: 4vmin;
 }
@@ -73,7 +77,7 @@ clip-path: circle(125%);
 
 
 .marquee {
-margin: 0em 10px;
+margin: 0em 0px;
 }
 .marquee-box-one {
 overflow: hidden;
@@ -154,19 +158,19 @@ font-size: 7vmin;
 
 ul{
 padding: 1rem;
-font-size: 1.5rem;
+font-size: 5vmin;
 list-style-image: url('./sssurface.svg');
 display: flex;
 flex-wrap: wrap;
 }
 
 ul li{
-margin: 1rem;
+margin: 3vmin;
 }
 
 ul li a{
 text-decoration: none;
-font-size: 1.7rem;
+font-size: 6vmin;
 font-weight: 500;
 color: black;
 transition: .4s;  
@@ -174,6 +178,6 @@ transition: .4s;
 
 ul li a:hover{
   color: #f8546f;
-  font-size: 1.8rem;
+  font-size: 6.2vmin;
 }
 
