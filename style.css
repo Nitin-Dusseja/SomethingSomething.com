@@ -244,18 +244,18 @@ ul li a:hover{
 
 @media screen and (max-width: 1020px) {
   .btn-container {
-    --pupil-color: rgb(253, 255, 156);
+    --pupil-color: rgb(235, 238, 54);
     --pupil-move: 20%;
     --sensor-height: 130dvmax;
     --sensor-width: calc(var(--sensor-height) * 82.84 / 100);
   }
   .heroSection .div{
-    margin-top: -5rem;
-    gap: 4rem;
+    margin-top: -10vh;
+    /* gap: 4rem; */
     /* border: 1px solid red; */
   }
   .heroSection .div .dev{
-    margin-left: 12rem;
+    margin-left: 12.5rem;
   }
   .heroSection .div .dev .tongue{
     font-size: 6rem;   
