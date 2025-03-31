@@ -17,8 +17,8 @@
 17 -> https://sweezy-cursors.com/ ✅
 18 -> https://aitoolsdirectory.com/ ✅
 19 -> https://asciiflow.com/#/
-20 -> https://getavataaars.com/
-21 -> https://www.vantajs.com/?effect=birds
+20 -> https://getavataaars.com/ ✅
+21 -> https://www.vantajs.com/?effect=birds ✅
 22- > https://www.sitelike.org/
 23 -> https://www.tldraw.com/
 24 -> https://ray.so/
@@ -26,9 +26,27 @@
 26 -> https://iconictoolshub.com/ (pdf tool)
 27 -> https://www.cymath.com/
 28 -> https://www.elegantflyer.com/ (Inspiration posters)
-29 -> https://you.com/
- 
+29 -> https://web.archive.org/ (WayBackMachine)
+30 -> https://rollout.site/ (AI)
+31 -> https://freeapi.app/ (AI)
+32 -> https://magicloops.dev/ (AI)
+33 -> https://www.buttons.cool/ 
+34 -> https://fontjoy.com/ (Font)
+35 -> https://freesound.org/ 
+36 -> https://www.waifu2x.net/ (Image upscaler)
+37 -> https://systemdesign.io/ (SystemDesign Questions)
+38 -> https://huggingface.co/ (AI)
+39 -> https://offlinesharing.com/ (File Sharing Site)
+40 -> https://steptodown.com/ (Downloader)
+41 -> https://toggles.dev/ (Button Animation of dark mode)
+42 -> https://animata.design/ (Animations in React)
+43 -> https://rapidtags.io/ (Meta Tags)
+44 -> https://fileszero.com/ (terabox videoplayer)
 
 vs code extension 
 1 -> Debug Visualizer
 2 -> https://codeium.com/
+
+
+Github Repos
+1-> https://forgoodfirstissue.github.com/ (Repo)
